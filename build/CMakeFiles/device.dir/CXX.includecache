@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ysmoon/projects/device/main.cpp
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+cstdlib
+-
+string.h
+-
+pthread.h
+-
+unistd.h
+-
+errno.h
+-
+
